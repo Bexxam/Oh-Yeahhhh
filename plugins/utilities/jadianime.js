@@ -1,6 +1,6 @@
 const ai2d = require('@arugaz/ai2d')
 exports.run = {
-   usage: ['jadianime', 'toanime],
+   usage: ['jadianime', 'toanime'],
   // hidden: ['alien', 'brick', 'bunny', 'caricature', 'clown', 'ink', 'latte', 'letter', 'pencil', 'puzzle', 'roses', 'sketch', 'splash', 'staco'],
    use: 'reply foto',
    category: 'utilities',
