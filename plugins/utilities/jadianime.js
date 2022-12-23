@@ -1,6 +1,6 @@
 const ai2d = require('@arugaz/ai2d')
 exports.run = {
-   usage: ['jadianime'],
+   usage: ['jadianime', 'toanime],
   // hidden: ['alien', 'brick', 'bunny', 'caricature', 'clown', 'ink', 'latte', 'letter', 'pencil', 'puzzle', 'roses', 'sketch', 'splash', 'staco'],
    use: 'reply foto',
    category: 'utilities',
@@ -27,7 +27,7 @@ exports.run = {
                },
             }).then(async (h) => {
             //if (!result || result.constructor.name != 'String') return client.reply(m.chat, global.status.fail, m)
-            client.sendFile(m.chat, h, ``, `*Bot Nolep Image Effect*`, m)
+            client.sendFile(m.chat, h, ``, `*Anjai jadi Animeh :v*`, m)
            })
          }
       } catch (e) {
